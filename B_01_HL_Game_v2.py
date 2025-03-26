@@ -115,7 +115,7 @@ if want_instructions == "yes":
 num_rounds = int_check("Rounds <enter for infinite>: ",
                        low=1, exit_code="")
 
-if num_rounds == "infinite":
+if num_rounds == "":
     mode = "infinite"
     num_rounds = 5
 
